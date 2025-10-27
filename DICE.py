@@ -6,7 +6,7 @@ def throw_dice():
     return random.randint(1, 6)
 
 # Main program
-if __name__ == "__main__"
+if __name__ == "__main__":
     print("🎲 Dice Thrower 🎲")
 
     # Ask the user if they want to throw the dice
@@ -20,3 +20,4 @@ if __name__ == "__main__"
         # Throw the dice and print the result
         dice_value = throw_dice()
         print(f"You threw a {dice_value}!\n")
+
